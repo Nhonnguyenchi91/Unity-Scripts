@@ -2,8 +2,9 @@
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
-
-public class Graphic_Raycaster_Example : MonoBehaviour //Để sử dụng thì script này phải được add vào Canvas
+// Script này giúp chúng ta Phát hiện UI Game Object tại vị trí pointer trỏ tới và log ra tên của Game Object đó
+//Để sử dụng thì script này phải được add vào Canvas
+public class Graphic_Raycaster_Example : MonoBehaviour 
 {
     GraphicRaycaster m_Raycaster; // Khởi tạo biến m_Raycaster là một GraphicRaycaster của Canvas
     PointerEventData m_PointerEventData; // Khởi tạo biến m_PointerEventData là event từ con trỏ pointer (mouse/touch)
