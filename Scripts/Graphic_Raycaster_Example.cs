@@ -28,7 +28,7 @@ public class Graphic_Raycaster_Example : MonoBehaviour //Để sử dụng thì 
             //Với các kết quả trong list RaycastResult ta sẽ in ra tên các GameObject mà phép Raycast đã phát hiện ra.
             foreach (RaycastResult result in results)
             {
-                Debug.Log("Hit " + result.gameObject.name);
+                Debug.Log("Hit " + result.gameObject.name); // Log ra tên Game Object mà phép Raycast đã phát hiện ra
             }
         }
     }
