@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
 
-public class example : MonoBehaviour //Để sử dụng thì script này phải được add vào Canvas
+public class Graphic_Raycaster_Example : MonoBehaviour //Để sử dụng thì script này phải được add vào Canvas
 {
     GraphicRaycaster m_Raycaster;
     PointerEventData m_PointerEventData;
